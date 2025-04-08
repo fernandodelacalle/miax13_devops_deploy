@@ -9,7 +9,7 @@ env:
   AWS_REGION: eu-west-1
   ECR_REPOSITORY: echo_lambda
   LAMBDA_NAME: echo_lambda
-  DOCKERFILE_PATH: dockerfile
+  DOCKERFILE_PATH: dockerfiles/echo_lambda/dockerfile
 
 defaults:
   run:
